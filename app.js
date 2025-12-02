@@ -1,5 +1,5 @@
 let boxes=document.querySelectorAll(".box");
-let resetbtn=document.querySelectorAll("#reset-btn");
+let resetbtn=document.querySelector("#reset-btn");
 
 let turn0=false;
 
@@ -8,7 +8,16 @@ const winPatters=[
 ];
 
 boxes.forEach((box)=>{
-    box.addEventListener("Click",()=>{
+    box.addEventListener("click",()=>{
         console.log("Box was Clicked");
+        if(turn0){
+            box.innerText="0";
+            turn0=false;
+        }
+        else{
+            box.innerText="X";
+            turn0=true;
+        }
+        box.disabled=true;
     })
 })
