@@ -13,6 +13,7 @@ boxes.forEach((box)=>{
         if(turn0){
             box.innerText="0";
             turn0=false;
+            
         }
         else{
             box.innerText="X";
