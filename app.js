@@ -12,7 +12,7 @@ boxes.forEach((box)=>{
         console.log("Box was Clicked");
         if(turn0){
             box.innerText="0";
-            turn0=false;
+            turn0=true;
             
         }
         else{
