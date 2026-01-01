@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-A fully functional **Tic-Tac-Toe** game built using **HTML, CSS, and Vanilla JavaScript**.  
+A fully functional Tic-Tac-Toe game built using **HTML, CSS, and Vanilla JavaScript.  
 The game supports two players, detects winners, handles draw scenarios, and allows resetting or starting a new game at any time.
 
 This project focuses on strengthening core JavaScript fundamentals such as DOM manipulation, event handling, and state management.
@@ -20,9 +20,9 @@ This project focuses on strengthening core JavaScript fundamentals such as DOM m
 
 ## Tech Stack
 
-- **HTML** – Structure
-- **CSS** – Styling
-- **JavaScript (Vanilla)** – Game logic
+- HTML – Structure
+- CSS – Styling
+- JavaScript – Game logic
 
 ---
 
