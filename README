@@ -44,7 +44,8 @@ TIC-TOE GAME/
 ├── app.js # Game logic
 └── README.md # Documentation
 
-🔮 Future Improvements
+---
+## Future Improvements
 
 - Add single-player mode (AI)
 - Add scoreboard
