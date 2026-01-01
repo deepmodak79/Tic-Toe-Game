@@ -1,0 +1,55 @@
+# Tic-Tac-Toe Game
+
+A fully functional **Tic-Tac-Toe** game built using **HTML, CSS, and Vanilla JavaScript**.  
+The game supports two players, detects winners, handles draw scenarios, and allows resetting or starting a new game at any time.
+
+This project focuses on strengthening core JavaScript fundamentals such as DOM manipulation, event handling, and state management.
+
+---
+
+## Features
+
+- Two-player gameplay (X vs O)
+- Automatic winner detection
+- Draw detection when all 9 cells are filled
+- Prevents overwriting already selected cells
+- Reset Game and New Game functionality
+- Dynamic message display for winner and draw
+
+---
+
+## Tech Stack
+
+- **HTML** – Structure
+- **CSS** – Styling
+- **JavaScript (Vanilla)** – Game logic
+
+---
+
+## Game Logic Overview
+
+- Tracks current player turn using a flag
+- Counts moves to detect draw conditions
+- Uses predefined winning patterns to determine the winner
+- Disables all cells once the game ends
+- Resets game state on New Game / Reset
+
+---
+
+## Project Structure
+TIC-TOE GAME/
+│
+├── index.html # Game layout
+├── style.css # Styling
+├── app.js # Game logic
+└── README.md # Documentation
+
+🔮 Future Improvements
+
+- Add single-player mode (AI)
+- Add scoreboard
+- Improve UI/UX animations
+
+👤 Author
+Deep Modak
+GitHub: https://github.com/deepmodak79

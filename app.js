@@ -16,7 +16,7 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if (box.innerText !== "") return;
         if(flag==true){
-        box.innerHTML="0";
+        box.innerHTML="O";
         flag=false;
         }
         else{
@@ -24,7 +24,7 @@ boxes.forEach((box)=>{
             flag=true;
         }
         box.disabled=true;
-
+        moveCount++;
         checkWinner();
     })
 })
@@ -35,6 +35,12 @@ const showWinner=(Winner)=>{
     messageContainer.classList.remove("hide");
     disableBoxes();
 }
+
+const showDraw = () => {
+    message.innerText = "It's a Draw!";
+    messageContainer.classList.remove("hide");
+    disableBoxes();
+};
 
 const checkWinner = () => {
     for (let pattern of winPatters) {
@@ -47,6 +53,10 @@ const checkWinner = () => {
             return;
         }
     }
+    if (moveCount === 9) {
+        showDraw();
+    }
+
 };
 
 
@@ -66,6 +76,7 @@ const enableBoxes =() =>{
 
 const resetGame=()=>{
     flag= true;
+     moveCount = 0; 
     enableBoxes();
     messageContainer.classList.add("hide");
 }
