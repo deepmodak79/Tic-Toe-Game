@@ -43,3 +43,29 @@ body{
     border: none;
     border-radius: 4px;
 }
+
+#new-btn{
+    padding:10px;
+    color:#ffffff;
+    background-color: #191913;
+    border: none;
+    border-radius: 4px;
+}
+
+#msg{
+    color:#ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height:100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+}
+
+.hide{
+    display: none;
+}
